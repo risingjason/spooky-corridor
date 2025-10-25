@@ -122,9 +122,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5226954981596785403, guid: 7d67ac5cfda0b944580afbed7561ec82, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8499731797006894502}
-    - targetCorrespondingSourceObject: {fileID: 5226954981596785403, guid: 7d67ac5cfda0b944580afbed7561ec82, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 183372229146180236}
     - targetCorrespondingSourceObject: {fileID: 5226954981596785403, guid: 7d67ac5cfda0b944580afbed7561ec82, type: 3}
       insertIndex: -1
@@ -140,18 +137,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5226954981596785403, guid: 7d67ac5cfda0b944580afbed7561ec82, type: 3}
   m_PrefabInstance: {fileID: 6944888303406424465}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8499731797006894502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2947866271905401706}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 584b597180bdc8349b6c891f69d7b030, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AI
 --- !u!195 &183372229146180236
 NavMeshAgent:
   m_ObjectHideFlags: 0
