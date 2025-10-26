@@ -411,18 +411,6 @@ PrefabInstance:
       value: Cuckoo Trap
       objectReference: {fileID: 0}
     - target: {fileID: 5597948782880762845, guid: ae0d91cfcdeb55e4bb8a31ca2391f81f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5597948782880762845, guid: ae0d91cfcdeb55e4bb8a31ca2391f81f, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5597948782880762845, guid: ae0d91cfcdeb55e4bb8a31ca2391f81f, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5597948782880762845, guid: ae0d91cfcdeb55e4bb8a31ca2391f81f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20
       objectReference: {fileID: 0}
@@ -461,22 +449,6 @@ PrefabInstance:
     - target: {fileID: 5597948782880762845, guid: ae0d91cfcdeb55e4bb8a31ca2391f81f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7534180957906241889, guid: ae0d91cfcdeb55e4bb8a31ca2391f81f, type: 3}
-      propertyPath: scaleSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7534180957906241889, guid: ae0d91cfcdeb55e4bb8a31ca2391f81f, type: 3}
-      propertyPath: scaleAmount.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8251400022978521632, guid: ae0d91cfcdeb55e4bb8a31ca2391f81f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5007028
-      objectReference: {fileID: 0}
-    - target: {fileID: 8251400022978521632, guid: ae0d91cfcdeb55e4bb8a31ca2391f81f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.26
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2133,6 +2105,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4870634178141813366, guid: 6c6b5795a8f18894f86756678eda1ed2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7498580000916290192, guid: 6c6b5795a8f18894f86756678eda1ed2, type: 3}
+      propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

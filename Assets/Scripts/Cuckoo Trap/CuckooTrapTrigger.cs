@@ -9,7 +9,6 @@ public class CuckooTrapTrigger : MonoBehaviour
     {
         if (springOfCuckoo != null && other.gameObject.tag == "NPC")
         {
-            Debug.Log("Triggered");
             springOfCuckoo.enabled = true; // enable the pop-out script
         }
     } 
