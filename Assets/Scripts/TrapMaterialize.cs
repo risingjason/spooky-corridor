@@ -16,14 +16,12 @@ public class TrapMaterialize : MonoBehaviour
         root = GetComponent<UIDocument>().rootVisualElement;
         root.visible = false;
 
-
         foreach (GameObject trap in allTraps)
         {
             TemplateContainer trapButton = trapButtonTemplate.Instantiate();
             Button button = trapButton.Q<Button>("Button");
             button.text = trap.name;
-            button.RegisterCallback<ClickEvent>(OnClick => CycleTrap(trap));
-            Debug.Log("Creating button for " + trap.name);
+            button.RegisterCallback<ClickEvent>(evt => CycleTrap(trap));
             root.Q("ButtonContainer").Add(trapButton);
         }
 
@@ -33,10 +31,6 @@ public class TrapMaterialize : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && parent.GetComponent<MazeCollision>().isHighlighted)
         {
-            if (currentTrap != null)
-            {
-                Destroy(currentTrap);
-            }
             root.visible = true;
         }
 
@@ -48,6 +42,7 @@ public class TrapMaterialize : MonoBehaviour
 
     public void CycleTrap(GameObject trap)
     {
+        Debug.Log("Placing trap: " + trap.name);
         if (currentTrap != null)
         {
             Destroy(currentTrap);

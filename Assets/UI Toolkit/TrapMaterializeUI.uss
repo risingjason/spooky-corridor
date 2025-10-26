@@ -15,8 +15,11 @@
 
   background-color: #a0a0a0;
 
-  width: 50%;
-  height: 50%;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  /* width: 50%; */
+  /* height: 50%; */
 }
 
 .trap-button {
