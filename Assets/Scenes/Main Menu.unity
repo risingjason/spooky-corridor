@@ -256,8 +256,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1767495004}
   - component: {fileID: 1767495003}
+  - component: {fileID: 1767495005}
   m_Layer: 5
-  m_Name: UIDocument
+  m_Name: Main Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -275,7 +276,7 @@ MonoBehaviour:
   m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.UIElements.UIDocument
-  m_PanelSettings: {fileID: 11400000, guid: 2513e3137a32c5b499ffb0222ab81008, type: 2}
+  m_PanelSettings: {fileID: 11400000, guid: d6f87641d735ca2478a8e8c5e0019280, type: 2}
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: eafecb6d327627a4e8105225718af2a7, type: 3}
   m_SortingOrder: 0
@@ -301,6 +302,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1767495005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767495002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 392d9a65886bae4479e7363e2e6cb0d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &1961100506
 GameObject:
   m_ObjectHideFlags: 0
