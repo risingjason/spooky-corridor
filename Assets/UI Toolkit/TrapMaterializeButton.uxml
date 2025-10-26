@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="Button" src="project://database/Assets/UI%20Toolkit/Button.uxml?fileID=9197481963319205126&amp;guid=5ddde5be0689490479a6674f0c491099&amp;type=3#Button" />
+    <Style src="project://database/Assets/UI%20Toolkit/TrapMaterializeUI.uss?fileID=7433441132597879392&amp;guid=601b52b9ee1609c4ba1d05dcdf7c34e6&amp;type=3#TrapMaterializeUI" />
+    <ui:Instance template="Button" name="Button" />
+</ui:UXML>

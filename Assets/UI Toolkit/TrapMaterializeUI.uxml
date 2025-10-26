@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/TrapMaterializeUI.uss?fileID=7433441132597879392&amp;guid=601b52b9ee1609c4ba1d05dcdf7c34e6&amp;type=3#TrapMaterializeUI" />
+    <ui:VisualElement style="flex-grow: 1; width: 100%; height: 100%; align-items: center; justify-content: center; align-self: center; align-content: center;">
+        <ui:VisualElement name="ButtonContainer" class="button-container" />
+    </ui:VisualElement>
+</ui:UXML>
