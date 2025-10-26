@@ -4,12 +4,14 @@ public class MazeCollision : MonoBehaviour
 {
     [SerializeField] private Material highlightMaterial;
     [SerializeField] private Material defaultMaterial;
+    public bool isHighlighted = false;
 
-    void OnTriggerStay(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "MousePointer")
         {
             gameObject.GetComponent<MeshRenderer>().material = highlightMaterial;
+            isHighlighted = true;
         }
     }
 
@@ -18,7 +20,15 @@ public class MazeCollision : MonoBehaviour
         if (other.gameObject.tag == "MousePointer")
         {
             gameObject.GetComponent<MeshRenderer>().material = defaultMaterial;
+            isHighlighted = false;
         }
     }
 
+    void Update()
+    {
+        if (isHighlighted && Input.GetMouseButtonDown(0))
+        {
+            Debug.Log("Clicked on " + gameObject.name);
+        }
+    }
 }

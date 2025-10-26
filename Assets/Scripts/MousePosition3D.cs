@@ -4,14 +4,23 @@ public class MousePosition3D : MonoBehaviour
 {
     [SerializeField] private Camera mainCamera;
     [SerializeField] private LayerMask layerMask;
-
-    void Update()
+    private float maxDistance = 50f;
+    void FixedUpdate()
     {
-        Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
+        Vector3 mouseWorldPosition = GetMouseWorldPosition();
+        transform.position = mouseWorldPosition;
+    }
 
-        if (Physics.Raycast(ray, out RaycastHit raycastHit, 50f, ~layerMask))
+    Vector3 GetMouseWorldPosition()
+    {
+        Ray pointerRay = mainCamera.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(pointerRay, out RaycastHit raycastHit, maxDistance, ~layerMask))
         {
-            transform.position = raycastHit.point;
+            return raycastHit.point;
+        }
+        else
+        {
+            return Vector3.zero;
         }
     }
 }
