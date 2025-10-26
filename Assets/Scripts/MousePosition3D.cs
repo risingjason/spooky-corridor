@@ -11,7 +11,6 @@ public class MousePosition3D : MonoBehaviour
 
         if (Physics.Raycast(ray, out RaycastHit raycastHit, 50f, ~layerMask))
         {
-
             transform.position = raycastHit.point;
         }
     }
