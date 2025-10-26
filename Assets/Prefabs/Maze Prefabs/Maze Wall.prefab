@@ -186,7 +186,7 @@ Transform:
   m_GameObject: {fileID: 1933334134650357937}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0132, y: -0.075, z: 0.616}
+  m_LocalPosition: {x: -0.0132, y: -0.075, z: 0.321}
   m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -282,9 +282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrapMaterialize
   allTraps:
-  - {fileID: 6593346202321830354, guid: db3b1c955b2737843aef1ad48ce92f1f, type: 3}
-  - {fileID: 3793429583509826071, guid: 90a4f6b83d2ebb5468b9f9136f0e92d0, type: 3}
-  - {fileID: 3607240532244412957, guid: 80dbcd312e61a754588978a84d38f1d2, type: 3}
+  - {fileID: 2382384594321640728, guid: ae0d91cfcdeb55e4bb8a31ca2391f81f, type: 3}
   trapButtonTemplate: {fileID: 9197481963319205126, guid: 5ddde5be0689490479a6674f0c491099, type: 3}
 --- !u!114 &1560776331689167431
 MonoBehaviour:
@@ -371,13 +369,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6836501706793167026}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.013199806, y: -0.07499999, z: -0.606}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -0.013199806, y: -0.07499999, z: -0.344}
   m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2073788445874142197}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &7989081334304983540
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -468,9 +466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrapMaterialize
   allTraps:
-  - {fileID: 6593346202321830354, guid: db3b1c955b2737843aef1ad48ce92f1f, type: 3}
-  - {fileID: 3793429583509826071, guid: 90a4f6b83d2ebb5468b9f9136f0e92d0, type: 3}
-  - {fileID: 3607240532244412957, guid: 80dbcd312e61a754588978a84d38f1d2, type: 3}
+  - {fileID: 2382384594321640728, guid: ae0d91cfcdeb55e4bb8a31ca2391f81f, type: 3}
   trapButtonTemplate: {fileID: 9197481963319205126, guid: 5ddde5be0689490479a6674f0c491099, type: 3}
 --- !u!114 &5740861261140363477
 MonoBehaviour:
