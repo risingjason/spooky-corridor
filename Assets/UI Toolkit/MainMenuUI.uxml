@@ -2,6 +2,6 @@
     <Style src="project://database/Assets/UI%20Toolkit/MainMenuUI.uss?fileID=7433441132597879392&amp;guid=d9873e6aef01a42468119c12bce7e9e0&amp;type=3#MainMenuUI" />
     <ui:VisualElement name="MainMenuBackground" class="main-menu" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/spooky-pumpkins.jpg?fileID=2800000&amp;guid=818f68a183b883e4f96bc48d756522af&amp;type=3#spooky-pumpkins&quot;); -unity-background-image-tint-color: rgb(229, 229, 229);">
         <ui:Label text="SPOOKY CORRIDORS" class="main-menu-label" style="height: 26px; width: 150px; -unity-text-align: upper-center;" />
-        <ui:Button text="Start Game" class="main-menu-button" />
+        <ui:Button text="Start Game" name="StartGameButton" class="main-menu-button" />
     </ui:VisualElement>
 </ui:UXML>
