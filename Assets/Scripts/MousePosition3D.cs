@@ -4,7 +4,7 @@ public class MousePosition3D : MonoBehaviour
 {
     [SerializeField] private Camera mainCamera;
     [SerializeField] private LayerMask layerMask;
-    private float maxDistance = 50f;
+    [SerializeField] private float maxDistance = 50f;
     void FixedUpdate()
     {
         Vector3 mouseWorldPosition = GetMouseWorldPosition();

@@ -1,10 +1,13 @@
+using System;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class MazeCollision : MonoBehaviour
 {
     [SerializeField] private Material highlightMaterial;
     [SerializeField] private Material defaultMaterial;
-    public bool isHighlighted = false;
+    [HideInInspector] public bool isHighlighted = false;
+
 
     void OnTriggerEnter(Collider other)
     {

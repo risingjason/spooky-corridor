@@ -128,6 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MazeCollision
   highlightMaterial: {fileID: 2100000, guid: 89708a11debd7954f93e855851f0867b, type: 2}
   defaultMaterial: {fileID: 2100000, guid: aad8aff5c430a20469d5b8ddddad8a72, type: 2}
+  isHighlighted: 0
 --- !u!54 &8597041449781795608
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -168,6 +169,7 @@ GameObject:
   - component: {fileID: 1944667812411877052}
   - component: {fileID: 4218193287286643482}
   - component: {fileID: 929324600102918401}
+  - component: {fileID: 1560776331689167431}
   m_Layer: 0
   m_Name: Trap
   m_TagString: Untagged
@@ -283,6 +285,30 @@ MonoBehaviour:
   - {fileID: 6593346202321830354, guid: db3b1c955b2737843aef1ad48ce92f1f, type: 3}
   - {fileID: 3793429583509826071, guid: 90a4f6b83d2ebb5468b9f9136f0e92d0, type: 3}
   - {fileID: 3607240532244412957, guid: 80dbcd312e61a754588978a84d38f1d2, type: 3}
+  trapButtonTemplate: {fileID: 9197481963319205126, guid: 5ddde5be0689490479a6674f0c491099, type: 3}
+--- !u!114 &1560776331689167431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933334134650357937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.UIElements.UIDocument
+  m_PanelSettings: {fileID: 11400000, guid: 2513e3137a32c5b499ffb0222ab81008, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: d205866f35d16014395717bcd656ffc3, type: 3}
+  m_SortingOrder: 0
+  m_Position: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
+  m_PivotReferenceSize: 0
+  m_Pivot: 0
+  m_WorldSpaceCollider: {fileID: 0}
 --- !u!1 &5764665720139427703
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,6 +355,7 @@ GameObject:
   - component: {fileID: 2177982058885400089}
   - component: {fileID: 4222008782658557009}
   - component: {fileID: 3804111067408458103}
+  - component: {fileID: 5740861261140363477}
   m_Layer: 0
   m_Name: Trap
   m_TagString: Untagged
@@ -444,6 +471,30 @@ MonoBehaviour:
   - {fileID: 6593346202321830354, guid: db3b1c955b2737843aef1ad48ce92f1f, type: 3}
   - {fileID: 3793429583509826071, guid: 90a4f6b83d2ebb5468b9f9136f0e92d0, type: 3}
   - {fileID: 3607240532244412957, guid: 80dbcd312e61a754588978a84d38f1d2, type: 3}
+  trapButtonTemplate: {fileID: 9197481963319205126, guid: 5ddde5be0689490479a6674f0c491099, type: 3}
+--- !u!114 &5740861261140363477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6836501706793167026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.UIElements.UIDocument
+  m_PanelSettings: {fileID: 11400000, guid: 2513e3137a32c5b499ffb0222ab81008, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: d205866f35d16014395717bcd656ffc3, type: 3}
+  m_SortingOrder: 0
+  m_Position: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
+  m_PivotReferenceSize: 0
+  m_Pivot: 0
+  m_WorldSpaceCollider: {fileID: 0}
 --- !u!1 &8047457524675077870
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,6 +623,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MazeCollision
   highlightMaterial: {fileID: 2100000, guid: 89708a11debd7954f93e855851f0867b, type: 2}
   defaultMaterial: {fileID: 2100000, guid: aad8aff5c430a20469d5b8ddddad8a72, type: 2}
+  isHighlighted: 0
 --- !u!54 &923433932126061066
 Rigidbody:
   m_ObjectHideFlags: 0
