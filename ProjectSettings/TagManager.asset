@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Target
   - MousePointer
+  - NPC
   layers:
   - Default
   - TransparentFX
