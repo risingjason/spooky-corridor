@@ -333,6 +333,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4925199858192008247, guid: 9adb5a768f9bc3f4ab11f2b4e4a96d20, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1857804936}
+    - targetCorrespondingSourceObject: {fileID: 4925199858192008247, guid: 9adb5a768f9bc3f4ab11f2b4e4a96d20, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1857804939}
     - targetCorrespondingSourceObject: {fileID: 8152009716491080906, guid: 9adb5a768f9bc3f4ab11f2b4e4a96d20, type: 3}
       insertIndex: -1
       addedObject: {fileID: 132724679}
@@ -7833,6 +7836,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Movement
   moveSpeed: 10
   rotateSpeed: 10
+--- !u!114 &1857804939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857804934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00a780fc380634cb0fb4129d758b5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuitApplication
 --- !u!1001 &1867289283
 PrefabInstance:
   m_ObjectHideFlags: 0
